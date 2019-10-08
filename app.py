@@ -162,10 +162,6 @@ def handle_over_max_file_size(error):
     return 'result : file size is overed.'
     #return render_template('toolarge.html')
 
-@app.after_request
-def after_request(response):
-    return render_template('index.html')
-
 # ------------------------------------------------------------------
 # main
 if __name__ == "__main__":
