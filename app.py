@@ -14,7 +14,7 @@ import shutil
 app = Flask(__name__)
 
 # limit upload file size : 1MB
-app.config['MAX_CONTENT_LENGTH'] = 15 * 1024 * 1024
+app.config['MAX_CONTENT_LENGTH'] = 25 * 1024 * 1024
 
 
 # ------------------------------------------------------------------
