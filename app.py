@@ -136,7 +136,7 @@ def upload_multipart():
                         continue
                     if w > h*2:
                         continue
-                    imwrite(image_dir+image_file.split('.')[0]+'/'+str(n)+'.jpg', img[y-int(h*0.1):y+ int(h*1.1),x-int(w*0.1):x+int(w*1.1)])
+                    imwrite(image_dir+image_file.split('.')[0]+'/'+str(n+1)+'.jpg', img[y-int(h*0.1):y+ int(h*1.1),x-int(w*0.1):x+int(w*1.1)])
                     n += 1
                 print(image_dir+image_file.split('.')[0])
                 return image_dir+image_file.split('.')[0]
