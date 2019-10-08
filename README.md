@@ -10,7 +10,7 @@ deployed at https://detect-coin.herokuapp.com/
 
 The images are detected from the left bottom.
 
-![Image](https://github.com/Fukasawa-gu/detect-coin/blob/master/static/images/test_after.jpg?raw=true)
+![Image](https://github.com/Fukasawa-gu/detect-coin/blob/master/static/images/test_after.png?raw=true)
 
 # Detected images
 
