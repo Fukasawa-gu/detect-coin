@@ -2,7 +2,7 @@ opencv-python==4.1.0.25
 Cython==0.29.5
 datetime==4.3
 Flask==1.1.1
-Flask-Cors==3.0.7
+Flask-Cors==3.0.9
 numpy==1.17.2
 numpydoc==0.8.0
 pandas==0.24.1
